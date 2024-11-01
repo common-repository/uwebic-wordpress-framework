@@ -1,0 +1,65 @@
+.tab_menu_item
+{
+	font-weight:bold;
+	cursor:pointer;
+}
+
+ul.menu-tabs
+{
+	overflow:hidden;
+}
+
+ul.menu-tabs li
+{
+	padding:10px 12px;
+	margin:0 5px 0 0;
+	background:#e3e3e3;
+	border:1px solid #D3D3D3;
+	float:left;
+	display:inline-block;
+}
+
+ul.menu-tabs li.active
+{
+	background:#FFF;
+	border-bottom:1px solid #FFF;
+}
+
+.tab_box
+{
+	border:1px solid #D3D3D3;
+	padding:10px;
+	margin:-1px 0 0 0;
+	overflow:hidden;
+}
+
+.tab_box label
+{
+	font-weight:bold;
+	font-style:italic;
+	width:150px;
+	display:inline-block;
+	vertical-align: top;
+}
+
+.tab_box label.desc
+{
+	vertical-align:top;
+}
+
+.input_block select
+{
+	width:300px;
+}
+
+#wpdeposit_po_form, #wpdeposit_po_form_wrap
+{
+	float:left;
+	width:540px;
+}
+
+#payment_options
+{
+	float:right;
+	width:540px;
+}
